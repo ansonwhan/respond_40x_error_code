@@ -1,0 +1,5 @@
+services:
+  custom_40x_event_subscriber:
+    class: '\Drupal\respond_40x_error_code\EventSubscriber\CustomErrorEventSubscriber'
+    tags:
+      - { name: 'event_subscriber' }
