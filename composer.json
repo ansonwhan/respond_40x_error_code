@@ -1,0 +1,12 @@
+{
+    "name": "drupal/respond_40x_error_code",
+    "description": "The respond_40x_error_code module forces your Drupal site's 403 and 404 pages to respond with an actual 403 or 404 response code. By default, if you assign a node for those custom error pages, it will respond with a 200 status code. Note: this module is not intended for use if Fast404 or another 404 module/custom implementation is in place.",
+    "type": "drupal-module",
+    "homepage": "https://www.drupal.org/project/respond_40x_error_code",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/respond_40x_error_code",
+        "documentation": "https://api.drupal.org/api/respond_40x_error_code",
+        "source": "http://cgit.drupalcode.org/respond_40x_error_code"
+    },
+    "license": "GPL-2.0+"
+}

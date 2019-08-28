@@ -1,6 +1,6 @@
 name: Respond 40x Error Code
-description: This module forces your Drupal site's 403 and 404 pages to respond with an actual 403 or 404 response code.  By default, if you assign a node for those custom error pages, it will respond with a 200 status code.
-package: Custom
+description: This module forces your Drupal site's 403 and 404 pages to respond with an actual 403 or 404 response code.  By default, if you assign a node for those custom error pages, it will respond with a 200 status code. Note- this module is not intended for use if Fast404 or another 404 module/custom implementation is in place.
+package: Other
 
 type: module
 core: 8.x
